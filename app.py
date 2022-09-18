@@ -182,4 +182,4 @@ def dass():
 
 if __name__=="__main__":
     db.create_all()
-    server.run(debug=True)
+    server.run(host="0.0.0.0", port="5000", debug=True)
